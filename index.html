@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PowerZone Gym</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1c1c1c;
+      color: white;
+    }
+
+    header {
+      background-color: #2b2b2b;
+      padding: 20px 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #ff3333;
+      margin: 0;
+      font-size: 26px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      color: #ff3333;
+    }
+
+    .hero {
+      position: relative;
+      background: url("image.jpg") no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 15px;
+    }
+
+    .hero h2 {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 15px 20px;
+      border-radius: 5px;
+      font-size: 24px;
+      line-height: 1.4;
+    }
+
+    .programs {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .programs h2 {
+      color: #ff3333;
+      margin-bottom: 30px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: #2b2b2b;
+      padding: 20px;
+      border-radius: 8px;
+      width: 250px;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card h3 {
+      color: #ff3333;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background-color: #2b2b2b;
+    }
+
+    footer h2 {
+      color: #ff3333;
+      margin-bottom: 10px;
+    }
+
+    footer p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+
+    .copyright {
+      text-align: center;
+      padding: 10px;
+      font-size: 13px;
+      background-color: #1c1c1c;
+      color: #bbb;
+    }
+
+    /* 📱 Responsive */
+    @media (max-width: 768px) {
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PowerZone Gym</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#programs">Programs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Transform Your Body, Transform Your Life</h2>
+  </section>
+
+  <section class="programs" id="programs">
+    <h2>Our Programs</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Strength Training</h3>
+        <p>Build muscle and increase strength with our professional trainers.</p>
+      </div>
+      <div class="card">
+        <h3>Cardio Fitness</h3>
+        <p>Improve endurance and heart health with modern cardio equipment.</p>
+      </div>
+      <div class="card">
+        <h3>Personal Coaching</h3>
+        <p>Get personalized workout and diet plans tailored to your goals.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: powerzonegym@gmail.com | Phone: +0122 872 0651</p>
+  </footer>
+
+  <div class="copyright">
+    © 2025 PowerZone Gym. All rights reserved.
+  </div>
+
+</body>
+</html>
